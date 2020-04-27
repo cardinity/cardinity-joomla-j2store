@@ -1,1 +1,1 @@
-# joomla-j2cart-cardinity-payment-plugin
+# Cardinity Payments Plugin For J2Cart (Joomla)

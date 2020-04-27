@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="j2store" method="upgrade">
+	<name>Cardinity Payments</name>
+	<version>1.0</version>
+	<creationDate>Apr 2020</creationDate>
+	<author>cardiniy.com</author>
+	<authorEmail></authorEmail>
+	<authorUrl>https://cardinity.com</authorUrl>
+	<copyright>2020 Cardinity</copyright>
+	<license>GNU General Public License v2 or later</license>
+	<description>Accept Online Payments and Increase Your Sales</description>
+	<files>
+		<filename plugin="payment_cardinity">payment_cardinity.php</filename>
+		<filename>index.html</filename>
+		<folder>payment_cardinity</folder>
+	</files>
+  <languages>
+    <language tag="en-GB">payment_cardinity/languages/en-GB/en-GB.plg_j2store_payment_cardinity.ini</language>
+  </languages>
+	<config>
+	<fields name="params">
+		<fieldset name="basic">
+			<field 
+	   name="project_key" 
+	   type="text" 
+	   size="50" 
+	   default="" 
+	   label="project_key"
+	   description="project_key"
+	   />
+
+	<field 
+	   name="project_secret" 
+	   type="text"
+		size="50"
+	   default="" 
+	   label="project_secret" 
+	   description="project_secret"
+	   />
+		</fieldset>
+	</fields>
+</config>
+</extension>
